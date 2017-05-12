@@ -1,0 +1,12 @@
+h1 {
+  font-family: 'Scope One', sans-serif;
+  font-size: 10rem;
+  letter-spacing: 10px;
+  padding-top: 10rem
+}
+
+.about {
+  padding-top: 4rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+}
