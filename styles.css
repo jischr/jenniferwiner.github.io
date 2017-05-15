@@ -1,8 +1,5 @@
-* {
-  font-family: 'Raleway', sans-serif;
-}
-
 h1 {
+  font-family: 'Raleway', sans-serif;
   font-size: 10rem;
   letter-spacing: 10px;
   padding-top: 9rem
@@ -10,7 +7,7 @@ h1 {
 }
 
 .about {
+  font-family: 'Raleway', sans-serif;
   font-size: 2rem;
   padding-top: 3rem;
 }
-  
