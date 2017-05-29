@@ -1,13 +1,44 @@
-h1 {
+* {
   font-family: 'Raleway', sans-serif;
+}
+
+.welcome {
+    background-image: url('img/IMG_4304edit.jpg');
+    background-size: cover;
+    height: 550px;
+}
+
+h1.name {
+  font-family: 'Raleway', sans-serif;
+  color: #6A432F;
   font-size: 10rem;
   letter-spacing: 10px;
-  padding-top: 9rem
+  padding-top: 6rem
 
 }
 
-.about {
+.tagline {
   font-family: 'Raleway', sans-serif;
-  font-size: 2rem;
-  padding-top: 3rem;
+  color: #6A432F;
+  font-size: 2.25rem;
+  padding-top: 2rem;
+}
+
+.about {
+
+  margin-top: 20rem;
+  /*background-image: url('img/IMG_3158.jpg');*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60rem;
+  /*opacity: .3;*/
+}
+
+.about-title h1 {
+  /*font-size: 8rem;*/
+  /*color: white;*/
+}
+
+.about h4 {
+  /*color: white;*/
 }
