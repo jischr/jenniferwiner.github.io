@@ -55,7 +55,6 @@ h1.name {
   font-size: 2rem;
 }
 
-
 .portfolio {
   background-color: #e7f2f2;
   height: 100%;
@@ -81,8 +80,15 @@ h1.name {
   font-size: 5rem;
 }
 
+.art-mobile h3 {
+  font-size: 5rem;
+}
 .art {
   transform: rotate(90deg);
+}
+
+.art-mobile {
+  display: none;
 }
 
 .footer {
@@ -99,15 +105,38 @@ h1.name {
   padding-bottom: 20px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-device-width: 320px) and (max-device-height: 667px) {
+  .tagline {
+    font-size: 4rem;
+  }
   .about {
     height: auto;
   }
   .about-text {
     border-left: 1px solid #404040;
-    padding: 1rem 0rem 1rem 5rem;
+    padding: 2rem 0rem 2rem 5rem;
     margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-bottom: 10rem;
+  }
+  .about-text h4 {
+    font-size: 4rem;
+  }
+  .portfolio h2 {
+    font-size: 7rem;
   }
 
+  .portfolio h3 {
+    font-size: 4rem;
+  }
+  .art-desktop {
+    display: none;
+  }
+  .art-mobile {
+    display: block;
+    padding-bottom: 10rem;
+
+  }
+  .art {
+    margin-bottom: 10rem;
+  }
 }
