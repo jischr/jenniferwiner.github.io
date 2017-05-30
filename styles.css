@@ -1,5 +1,6 @@
 * {
   font-family: 'Raleway', sans-serif;
+  color: #404040;
 }
 
 .welcome {
@@ -18,8 +19,6 @@
 }
 
 h1.name {
-  font-family: 'Raleway', sans-serif;
-  color: #404040;
   font-size: 10rem;
   letter-spacing: 10px;
   padding-top: 2rem;
@@ -27,8 +26,6 @@ h1.name {
 }
 
 .tagline {
-  font-family: 'Raleway', sans-serif;
-  color: #404040;
   font-size: 2.25rem;
   padding-top: 1rem;
   padding-bottom: 2rem;
@@ -46,12 +43,18 @@ h1.name {
 
 .about-title h1 {
   font-size: 8rem;
-  color: #404040;
+  padding-top: 10rem;
 }
 
-.about h4 {
-  color: #404040;
+.about-text {
+  border-left: 1px solid #404040;
+  padding: 5rem;
 }
+
+.about-text h4 {
+  font-size: 2rem;
+}
+
 
 .portfolio {
   background-color: #e7f2f2;
@@ -68,9 +71,23 @@ h1.name {
   padding-bottom: 3rem;
 }
 
+.portfolio-art {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  background-color: #f3f8f8;
+
+}
+.art-heading {
+  font-size: 5rem;
+}
+
+.art {
+  transform: rotate(90deg);
+}
+
 .footer {
-  height: 100px;
   padding-top: 25px;
+  background-color: #CFE5E5;
 }
 
 .footer-link {
@@ -79,4 +96,11 @@ h1.name {
 
 .copyright {
   padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@@media (max-width: 600px;) {
+  .about-title h1 {
+    padding-top: none;
+  }
 }
