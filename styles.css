@@ -3,42 +3,75 @@
 }
 
 .welcome {
-    background-image: url('img/IMG_4304edit.jpg');
+    background-image: url('img/IMG_1647.jpg');
     background-size: cover;
-    height: 550px;
+    /*background-repeat: no-repeat;*/
+    height:600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.heading {
+  background-color: rgba(255, 255, 255, .8);
 }
 
 h1.name {
   font-family: 'Raleway', sans-serif;
-  color: #6A432F;
+  color: #404040;
   font-size: 10rem;
   letter-spacing: 10px;
-  padding-top: 6rem
+  padding-top: 2rem;
 
 }
 
 .tagline {
   font-family: 'Raleway', sans-serif;
-  color: #6A432F;
+  color: #404040;
   font-size: 2.25rem;
-  padding-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
 
 .about {
-
-  margin-top: 20rem;
-  /*background-image: url('img/IMG_3158.jpg');*/
+  background-color: #CFE5E5;
   background-size: cover;
   background-repeat: no-repeat;
   height: 60rem;
-  /*opacity: .3;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .about-title h1 {
-  /*font-size: 8rem;*/
-  /*color: white;*/
+  font-size: 8rem;
+  color: #404040;
 }
 
 .about h4 {
-  /*color: white;*/
+  color: #404040;
+}
+
+.portfolio {
+  background-color: #e7f2f2;
+  height: 300px;
+}
+
+.portfolio h2 {
+  padding-top: 6rem;
+  font-size: 6rem;
+}
+
+.footer {
+  height: 100px;
+  padding-top: 25px;
+}
+
+.footer-link {
+  padding: 10px;
+}
+
+.copyright {
+  padding-top: 20px;
 }
