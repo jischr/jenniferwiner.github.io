@@ -99,8 +99,15 @@ h1.name {
   padding-bottom: 20px;
 }
 
-@@media (max-width: 600px;) {
-  .about-title h1 {
-    padding-top: none;
+@media only screen and (max-width: 600px) {
+  .about {
+    height: auto;
   }
+  .about-text {
+    border-left: 1px solid #404040;
+    padding: 1rem 0rem 1rem 5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
 }
