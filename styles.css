@@ -81,10 +81,7 @@ h1.name {
 }
 
 .art-mobile h3 {
-  font-size: 5rem;
-}
-.art {
-  transform: rotate(90deg);
+  font-size: 7rem;
 }
 
 .art-mobile {
@@ -133,11 +130,6 @@ h1.name {
   }
   .art-mobile {
     display: block;
-    padding-bottom: 10rem;
-
-  }
-  .art {
-    transform: none;
-    margin-bottom: 10rem;
+    padding-bottom: 5rem;
   }
 }
