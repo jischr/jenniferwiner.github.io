@@ -81,7 +81,11 @@ h1.name {
 }
 
 .art-mobile h3 {
-  font-size: 7rem;
+  font-size: 6rem;
+}
+
+.art-mobile h4 {
+  font-size: 4rem;
 }
 
 .art-mobile {
