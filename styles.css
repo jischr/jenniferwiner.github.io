@@ -127,6 +127,14 @@ h1.name {
   background-color: #CFE5E5;
 }
 
+.footer-linkedin {
+  opacity: .75;
+}
+
+.footer-git {
+  opacity: .83;
+}
+
 .footer-link {
   padding: 10px;
 }
