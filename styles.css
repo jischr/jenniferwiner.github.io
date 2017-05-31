@@ -7,24 +7,36 @@
     display: none;
 }
 
+#loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #9dcaca;
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
 #loading {
     display: block;
     position: absolute;
-    top: 0;
-    left: 0;
     z-index: 100;
     width: 100vw;
     height: 100vh;
     background-color: rgba(255, 255, 255, 0.5);
-    background-image: url("https://www.igeedfeed.com/public/image/loading.gif");
-    background-repeat: no-repeat;
-    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .welcome {
     background-image: url('img/splash.jpg');
     background-size: cover;
-    /*background-repeat: no-repeat;*/
     height:600px;
     display: flex;
     flex-direction: column;
