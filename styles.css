@@ -137,6 +137,7 @@ h1.name {
 
   }
   .art {
+    transform: rotate(90deg);
     margin-bottom: 10rem;
   }
 }
