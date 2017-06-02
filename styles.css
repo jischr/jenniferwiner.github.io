@@ -34,6 +34,12 @@
     align-items: center;
 }
 
+.nav-arrow {
+  font-size: 40px;
+  padding: 7px;
+  border-radius: 50%;
+}
+
 .welcome {
     background-image: url('img/splash.jpg');
     background-size: cover;
@@ -61,19 +67,35 @@ h1.name {
   padding-bottom: 2rem;
 }
 
+#nav-about {
+  background-color: #CFE5E5;
+  height: 1rem;
+}
+
+#nav-about .nav-arrow {
+  margin-top: -20px;
+  border: 1px solid #CFE5E5;
+  background-color: #CFE5E5;
+}
+
 .about {
   background-color: #CFE5E5;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 60rem;
+  height: 55rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 .about-title h1 {
-  font-size: 8rem;
-  padding-top: 10rem;
+  font-size: 7rem;
+}
+
+.about-title img {
+  height: 20rem;
+  border-radius: 50%;
+  margin-left: 30rem;
 }
 
 .about-text {
@@ -83,6 +105,17 @@ h1.name {
 
 .about-text h4 {
   font-size: 2rem;
+}
+
+#nav-portfolio {
+  background-color: #e7f2f2;
+  height: 1rem;
+}
+
+#nav-portfolio .nav-arrow {
+  margin-top: -25px;
+  border: 1px solid #e7f2f2;
+  background-color: #e7f2f2;
 }
 
 .portfolio {
@@ -100,12 +133,23 @@ h1.name {
   padding-bottom: 3rem;
 }
 
+#nav-art {
+  background-color: #f3f8f8;
+  height: .5rem;
+}
+
+#nav-art .nav-arrow {
+  margin-top: -25px;
+  border: 1px solid #f3f8f8;
+  background-color: #f3f8f8;
+}
 .portfolio-art {
   padding-top: 10rem;
   padding-bottom: 10rem;
   background-color: #f3f8f8;
 
 }
+
 .art-heading {
   font-size: 5rem;
 }
