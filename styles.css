@@ -89,17 +89,14 @@ h1.name {
 .portfolio {
   background-color: #e7f2f2;
   height: 100%;
-  padding-bottom: 8rem;
+  padding-bottom: 6rem;
 }
 
 .portfolio h2 {
-  padding-top: 8rem;
+  padding-top: 6rem;
   font-size: 6rem;
 }
 
-.portfolio .tech-heading {
-  padding-bottom: 3rem;
-}
 
 .portfolio-tech {
   height: 45rem;
