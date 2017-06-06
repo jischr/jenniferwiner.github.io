@@ -51,10 +51,12 @@ h1.name {
   background-color: #CFE5E5;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 55rem;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 
 .about-title h1 {
