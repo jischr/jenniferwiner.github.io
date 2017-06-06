@@ -136,6 +136,10 @@ h1.name {
   height: 45rem;
 }
 
+.portfolio-tech img {
+  height:  
+}
+
 #nav-art {
   background-color: #f3f8f8;
   height: .5rem;
@@ -146,6 +150,7 @@ h1.name {
   border: 1px solid #f3f8f8;
   background-color: #f3f8f8;
 }
+
 .portfolio-art {
   padding-top: 10rem;
   padding-bottom: 10rem;
