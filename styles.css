@@ -162,6 +162,7 @@ h1.name {
 .copyright {
   padding-top: 20px;
   padding-bottom: 20px;
+  margin-bottom: 0;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-height: 667px) {
