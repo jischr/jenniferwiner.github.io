@@ -105,7 +105,15 @@ h1.name {
 }
 
 .portfolio-tech img {
-  height:
+}
+
+.onehourchallenge .btn, .onehourchallenge h4 {
+  display: inline-block;
+  margin: 10px;
+}
+
+.onehourchallenge .btn {
+  text-transform: uppercase;
 }
 
 #nav-art {
