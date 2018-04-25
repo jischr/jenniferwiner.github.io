@@ -1,0 +1,22 @@
+{
+  "name": "react-personal",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bulma": "^0.6.2",
+    "moment": "^2.22.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-twitter-widgets": "^1.7.1",
+    "styled-components": "^3.2.3"
+  },
+  "devDependencies": {
+    "react-scripts": "1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start --include-path ./src --include-path ./node-modules",
+    "build": "react-scripts build -include-path ./src --include-path ./node-modules",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

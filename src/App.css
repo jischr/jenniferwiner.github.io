@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Seaweed+Script');
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.Side {
+  display: inline-block;
+  width: 40%;
+}
+
+.Center {
+  display: inline-block;
+  vertical-align: top;
+  width: 60%;
+}
+
+.Nav {
+  padding-top: 30px;
+  margin-left: 25px;
+  display: inline-block;
+}
+
+.div {
+  position: absolute;
+  top: 35%;
+  left: 15%;
+  right: 15%;
+  height: 3500px;
+  background-color: rgba(255,255,255,.2);
+  z-index: 99;
+  text-align: center;
+}
+
+.footer {
+  padding-bottom: 48px;
+  margin-top: 150px;
+}
+
+@media (max-width: 800px) {
+  .Side, .Center {
+    display: block;
+    width: 100%;
+  }
+  .Center {
+    margin-top: 60px;
+  }
+  .div {
+    top: 45%;
+    left: 5%;
+    right: 5%;
+  }
+}
