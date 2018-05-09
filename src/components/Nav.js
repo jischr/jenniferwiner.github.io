@@ -42,7 +42,7 @@ const Nav = ({
   <div className="Nav">
     {  NavItems.map((navItem, index) => {
       return (
-        <Wrapper key={index} hovcolor={navItem.hovcolor} onClick={() => onNavClick(index)}>
+        <Wrapper key={index} onClick={() => onNavClick(index)}>
           <NavSquare color={navItem.color}>
             <Text>{navItem.text}</Text>
           </NavSquare>

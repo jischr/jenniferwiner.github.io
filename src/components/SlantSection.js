@@ -1,13 +1,24 @@
 import React from 'react';
 import styled from 'styled-components';
 
+const styles = {
+  position: 'absolute',
+  left: '-75%',
+  color: 'black',
+  width: '180%'
+}
+
 const TextStyle = styled.div`
   padding-top: 50px;
-  width: 75%;
+  font-size: 18px;
+  width: 90%;
   padding-left: 90px;
   @media (max-width: 975px) {
-   width: 90%;
- }
+   font-size: 16px;
+  }
+  @media (max-width: 500px) {
+   font-size: 14px;
+  }
 `
 const headingStyle = {
   fontSize: '36px',
@@ -18,10 +29,10 @@ const blankSection = {
 }
 
 const SlantSection = ({
-  id, color
+  id, color, width
 }) => (
   <div>
-    <ColoredSection color={color}>
+    <ColoredSection color={color} width={width}>
       { id === 'about' &&
       <TextStyle>
         <h1 style={headingStyle}>About</h1>
@@ -31,6 +42,26 @@ const SlantSection = ({
         <br /><br />
         In my free time, I love creating art (pottery, watercolors, sculpture) and spending as much time as I can outside, hiking and exploring, and chasing Colorado's wildflowers.
       </TextStyle>
+      }
+
+      {
+        id === 'projects' &&
+        <div style={styles} className="has-text-centered">
+          <h1>Projects</h1>
+          <div className="columns">
+            <div className="column">
+              First column
+            </div>
+            <div className="column">
+              2 column
+            </div>
+            <div className="column">
+              3 column
+            </div>
+          </div>
+        </div>
+
+
       }
     </ColoredSection>
 
@@ -57,7 +88,7 @@ const ColoredSection = styled.div`
     top: -7px;
     content: '';
     display: block;
-    height: 50%;
+    height: 52%;
     left: 0;
     position: absolute;
     right: 0;

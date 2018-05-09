@@ -4,6 +4,10 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+p {
+  font-size: 20px;
+}
+
 .Side {
   display: inline-block;
   width: 40%;

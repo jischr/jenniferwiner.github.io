@@ -13,7 +13,7 @@ class App extends Component {
       <div className="App">
         <div className="Side">
           <Name/>
-          <Nav onNavClick= { id => console.log('clicked ' + id) }/>
+          <Nav onNavClick={ id => console.log('clicked ' + id) }/>
         </div>
         <div className="Center">
           <Slants/>

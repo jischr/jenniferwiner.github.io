@@ -41,7 +41,7 @@ const CommitsList = ({
   commits
 }) => (
    commits.map((commit, index) => {
-     if (index < 3) {
+     if (index < 3 && commit.type === 'PushEvent') {
        return (
          <div key={index}>
            <div>
@@ -66,7 +66,7 @@ const CommitMessages = ({
   createdAt
 }) => (
   <CommitsInner>
-    {
+    { messages &&
       messages.map((message, index) => {
         return (
           <Message key={index}>
