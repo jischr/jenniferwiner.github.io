@@ -4,6 +4,11 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+li {
+  list-style-position: inside;
+  list-style-type: circle;
+}
+
 p {
   font-size: 20px;
 }

@@ -27,7 +27,7 @@ class DisplayCommits extends Component {
     const req = new Request(`https://api.github.com/repos/${username}/${repo}/events`);
     fetch(req)
     .then(res => res.json())
-    .then(commits => this.setState({ commits }) )
+    .then(commits => { this.setState({ commits }) })
   }
 
   render() {
