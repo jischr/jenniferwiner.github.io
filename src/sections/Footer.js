@@ -12,12 +12,12 @@ const Footer = () => (
       </div>
       <div className="column">
         <GithubFeed/>
-        <p>&#60;&#60;&#60; Where to find me &#62;&#62;&#62;</p>
+        <h1>&#60;&#60;&#60; Where to find me &#62;&#62;&#62;</h1>
         <br/>
-        <p>Meetup Host:</p>
+        <h1>Meetup Host:</h1>
         <ul>
-          <li>Women Who Code JavaScript Study Group // 1st Monday at 6 PM</li>
-          <li>Boulder React Coding Night // 3rd Thursday at 6 PM</li>
+          <li>Women Who Code JavaScript Study Group<br/>// 1st Monday at 6 PM</li>
+          <li>Boulder React Coding Night<br/>3rd Thursday at 6 PM</li>
         </ul>
       </div>
       <div className="column">
